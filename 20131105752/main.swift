@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+for var i in 1...10 {
+    print("\(i)")
+}
 
