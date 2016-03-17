@@ -27,3 +27,48 @@ while j<=10
 }
 
 
+
+let possiableNumber = "123"
+var convertResult = Int(possiableNumber)
+
+
+print(convertResult)
+
+convertResult.dynamicType
+
+var x:Int?
+var address:String?
+var successRate:Double?
+
+//convertResult = nil
+
+var m = 10
+
+//m = nil
+
+if convertResult != nil {
+    //Force unwrapping
+    print(convertResult)
+}
+
+//print(x!)
+
+//Optional binding
+
+if let number = convertResult {
+    print(number)
+    
+}
+    
+    
+else {
+    print("Convert result is nil")
+}
+
+//:#### Implicitly Unwrapped Optionals
+
+var a:String! = "A dangerous way!"
+
+print(a)
+
+a + " Use it with caution!"
